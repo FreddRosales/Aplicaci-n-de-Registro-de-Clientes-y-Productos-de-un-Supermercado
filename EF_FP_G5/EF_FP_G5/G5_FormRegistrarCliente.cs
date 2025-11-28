@@ -14,7 +14,6 @@ namespace EF_FP_G5
 {
     public partial class G5_FormRegistrarCliente : Form
     {
-        List<Cliente> listaClientes = new List<Cliente>();
         public G5_FormRegistrarCliente()
         {
             InitializeComponent();
@@ -26,7 +25,9 @@ namespace EF_FP_G5
             c.G5_Nombre = G5_txtNombreCliente.Text;
             c.G5_DNI = Validacion.ValidarDNI(G5_txtDNI.Text);
             c.G5_celular = Validacion.ValidarCelular(G5_txtCelular.Text);
-            listaClientes.Add(c);
+            Global.listaClientes.Add(c);
+            Archivos.GuardarClientes(Global.listaClientes);
+            MessageBox.Show("Producto registrado con éxito");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EF_FP_G5.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,11 +18,14 @@ namespace EF_FP_G5
             InitializeComponent();
         }
 
-        private void G5_btnMostrarProducto_Click(object sender, EventArgs e)
+        private void G5_FormMostrarProductos_Load(object sender, EventArgs e)
         {
-            G5_FormMostrarProductos f = new G5_FormMostrarProductos();
-            f.ShowDialog();
+            ActualizarListaProductos();
         }
-       
+        private void ActualizarListaProductos()
+        {
+            G5_dgvProductos.DataSource = null;
+            G5_dgvProductos.DataSource = Global.listaProductos;
+        }
     }
 }

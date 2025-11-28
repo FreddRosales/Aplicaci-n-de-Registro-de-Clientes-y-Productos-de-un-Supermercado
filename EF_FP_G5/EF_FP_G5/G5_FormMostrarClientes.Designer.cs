@@ -28,7 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.G5_dgvClientes = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.G5_dgvClientes)).BeginInit();
             this.SuspendLayout();
+            // 
+            // G5_dgvClientes
+            // 
+            this.G5_dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.G5_dgvClientes.Location = new System.Drawing.Point(12, 12);
+            this.G5_dgvClientes.Name = "G5_dgvClientes";
+            this.G5_dgvClientes.RowHeadersWidth = 51;
+            this.G5_dgvClientes.RowTemplate.Height = 24;
+            this.G5_dgvClientes.Size = new System.Drawing.Size(776, 426);
+            this.G5_dgvClientes.TabIndex = 0;
             // 
             // G5_FormMostrarClientes
             // 
@@ -36,12 +48,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.G5_dgvClientes);
             this.Name = "G5_FormMostrarClientes";
             this.Text = "Mostrar Clientes";
+            this.Load += new System.EventHandler(this.G5_FormMostrarClientes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.G5_dgvClientes)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView G5_dgvClientes;
     }
 }
