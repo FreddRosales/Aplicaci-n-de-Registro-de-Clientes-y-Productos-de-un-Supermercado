@@ -1,0 +1,15 @@
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.csproj.AssemblyReference.cache
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.Properties.Resources.resources
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.csproj.GenerateResource.cache
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.csproj.CoreCompileInputs.cache
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\bin\Debug\EF_FP_G5.exe.config
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\bin\Debug\EF_FP_G5.exe
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\bin\Debug\EF_FP_G5.pdb
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.G5_FormAsignarProducto.resources
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.G5_FormMostrarClientes.resources
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.G5_FormMostrarProductos.resources
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.G5_FormRegistrarCliente.resources
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.G5_FormRegistrarProducto.resources
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.G5_FormMenu.resources
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.exe
+C:\Users\frosa\OneDrive\Documentos\Astral\EF\EF_FP_G5\EF_FP_G5\obj\Debug\EF_FP_G5.pdb
