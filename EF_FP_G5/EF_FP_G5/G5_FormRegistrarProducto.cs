@@ -23,13 +23,13 @@ namespace EF_FP_G5
         private void G5_btnRegistrarProducto_Click(object sender, EventArgs e)
         {
             Producto p = new Producto();
-            p.G5_Codigo = G5_txtCodigo.Text;
-            p.G5_Nombre = G5_txtNombreProducto.Text;
-            p.G5_Categoria = G5_cmboxCategoria.Text;
-            p.G5_Precio = double.Parse(G5_txtPrecioProducto.Text);
+            p.G5_Codigop = G5_txtCodigo.Text;
+            p.G5_Nombrep = G5_txtNombreProducto.Text;
+            p.G5_Categoriap = G5_cmboxCategoria.Text;
+            p.G5_Preciop = double.Parse(G5_txtPrecioProducto.Text);
 
             Global.listaProductos.Add(p);
-            Archivos.GuardarClientes(Global.listaClientes);
+            Archivos.GuardarProductos(Global.listaProductos);
             MessageBox.Show("Producto registrado con éxito");
         }
         

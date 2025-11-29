@@ -22,9 +22,9 @@ namespace EF_FP_G5
         private void G5_btnRegistrarCliente_Click(object sender, EventArgs e)
         {
             Cliente c = new Cliente();
-            c.G5_Nombre = G5_txtNombreCliente.Text;
-            c.G5_DNI = Validacion.ValidarDNI(G5_txtDNI.Text);
-            c.G5_celular = Validacion.ValidarCelular(G5_txtCelular.Text);
+            c.G5_NombreC = G5_txtNombreCliente.Text;
+            c.G5_DNIC = Validacion.ValidarDNI(G5_txtDNI.Text);
+            c.G5_celularC = Validacion.ValidarCelular(G5_txtCelular.Text);
             Global.listaClientes.Add(c);
             Archivos.GuardarClientes(Global.listaClientes);
             MessageBox.Show("Producto registrado con éxito");

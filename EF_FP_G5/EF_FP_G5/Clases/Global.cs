@@ -10,5 +10,6 @@ namespace EF_FP_G5.Clases
     {
         public static List<Producto> listaProductos = new List<Producto>();
         public static List<Cliente> listaClientes = new List<Cliente>();
+        public static List<Asignar> listaAsignar = new List<Asignar>();
     }
 }

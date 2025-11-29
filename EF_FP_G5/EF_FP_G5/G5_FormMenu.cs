@@ -17,7 +17,12 @@ namespace EF_FP_G5
         public G5_FormMenu()
         {
             InitializeComponent();
+            Archivos.CargarClientes();
+            Archivos.CargarProductos();
+            Archivos.CargarAsignaciones();
+
         }
+
         private void G5_btnRegistrar_Click(object sender, EventArgs e)
         {
             new G5_FormRegistrarCliente().ShowDialog();
